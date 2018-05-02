@@ -1,0 +1,45 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "webpack && node server",
+    "dev": "nodemon --watch server & webpack --watch",
+    "test": "jest --watch --noStack-Trace"
+  },
+  "description": "boilerplate set up for react and redux development",
+  "repository": "https://github.com/adam-kuhn/boilerplate.git",
+  "author": "adam-kuhn <adam.kuhn20@gmail.com>",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-3"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.2",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
