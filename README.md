@@ -1,3 +1,3 @@
 # boilerplate
 minimal boiler plate for full stack apps
-With react and redux 
+with react and redux 
