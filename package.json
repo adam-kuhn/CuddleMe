@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack && node server",
     "dev": "nodemon --watch server & webpack --watch",
-    "test": "jest --watch --noStack-Trace"
+    "test": "jest --watch --noStackTrace"
   },
   "description": "boilerplate set up for react and redux development",
   "repository": "https://github.com/adam-kuhn/boilerplate.git",
