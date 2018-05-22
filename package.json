@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "CuddleMe",
   "version": "1.0.0",
   "main": "server/index.js",
   "scripts": {
@@ -7,7 +7,7 @@
     "dev": "nodemon --watch server & webpack --watch",
     "test": "jest --watch --noStackTrace"
   },
-  "description": "boilerplate set up for react and redux development",
+  "description": "bringing people together for a cuddle",
   "repository": "https://github.com/adam-kuhn/boilerplate.git",
   "author": "adam-kuhn <adam.kuhn20@gmail.com>",
   "license": "MIT",
