@@ -1,3 +1,2 @@
 # boilerplate
-minimal boiler plate for full stack apps
-with react and redux 
+Who needs a dating app, when all you really need is just a good cuddle.
