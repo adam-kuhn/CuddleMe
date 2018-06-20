@@ -4,7 +4,8 @@ module.exports = {
   entry: './client/index.js',
   output: {
     path: path.join(__dirname, '/public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    // publicPath: '/'
   },
   module: {
     loaders: [
@@ -15,6 +16,9 @@ module.exports = {
       }
     ]
   },
+  // devServer: {
+  //   historyApiFallback: true
+  // },
   resolve: {
     extensions: ['.js', '.jsx']
   },
