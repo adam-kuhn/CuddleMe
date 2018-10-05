@@ -10,7 +10,6 @@ import CuddleSearch from './CuddleSearch'
 const App = () => {
   return (
     <div>
-      <h2>React and Redux development is ready to GOOOO!</h2>
       <Route exact path='/' component={Landing} />
       <Route path='/members-only/:username' component={MemberWelcome} />
       <Route path='/profile/:username' component={Profile} />
