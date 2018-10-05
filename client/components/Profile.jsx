@@ -5,6 +5,7 @@ class Profile extends React.Component {
     return (
       <div>
         <h3>Name: Billy</h3>
+        <img src='/styles/images/placeholder.jpg' />
         <p>Age: 24</p>
         <p>Cuddlee</p>
       </div>
