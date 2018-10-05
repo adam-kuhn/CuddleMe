@@ -1,11 +1,11 @@
 import React from 'react'
 import {Route} from 'react-router-dom'
 
-import Landing from './Landing'
-import Profile from './Profile'
-import Register from './Register'
-import MemberWelcome from './MemberWelcome'
-import CuddleSearch from './CuddleSearch'
+import Landing from './Landing/Landing'
+import Profile from './Landing/Members/Profile/Profile'
+import Register from './Landing/Non-Members/Register/Register'
+import MemberWelcome from './Landing/Members/MemberWelcome'
+import CuddleSearch from './Landing/Members/CuddleSearch/CuddleSearch'
 
 const App = () => {
   return (
