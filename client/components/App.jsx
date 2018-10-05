@@ -5,6 +5,7 @@ import Landing from './Landing'
 import Profile from './Profile'
 import Register from './Register'
 import MemberWelcome from './MemberWelcome'
+import CuddleSearch from './CuddleSearch'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Route exact path='/' component={Landing} />
       <Route path='/members-only/:username' component={MemberWelcome} />
       <Route path='/profile/:username' component={Profile} />
+      <Route path='/cuddle-search/:username' component={CuddleSearch} />
       <Route path='/register' component={Register} />
     </div>
   )

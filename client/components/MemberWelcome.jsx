@@ -5,7 +5,7 @@ const MemberWelcome = () => {
   return (
     <div>
       <Link to='/profile/:username'>Edit Profile</Link>
-      <p>Browse cuddle buddies</p>
+      <Link to='/cuddle-search/:username'>Browse cuddle buddies</Link >
     </div>
   )
 }
