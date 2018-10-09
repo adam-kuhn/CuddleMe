@@ -6,7 +6,7 @@ class Landing extends React.Component {
     return (
       <div>
         <p>Already a member:</p>
-        <Link to='/profile/:username'>Login</Link>
+        <Link to='/members-only/:username'>Login</Link>
         <p>Join us:</p>
         <Link to='/register'>Register</Link>
       </div>
